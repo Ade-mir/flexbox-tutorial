@@ -1,0 +1,18 @@
+.flex-parent {
+  display: flex;
+  /* flex-direction: row-reverse;
+  flex-direction: column; */
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+/* 
+
+flex-direction
+
+row: Items are placed the same as the text direction.
+row-reverse: Items are placed opposite to the text direction.
+column: Items are placed top to bottom.
+column-reverse: Items are placed bottom to top.
+
+*/

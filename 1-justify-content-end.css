@@ -1,0 +1,15 @@
+.flex-parent {
+  display: flex;
+  justify-content: center;
+}
+
+/* 
+
+justify-content
+
+
+flex-start: Items align to the left side of the container.
+flex-end: Items align to the right side of the container.
+center: Items align at the center of the container.
+
+*/

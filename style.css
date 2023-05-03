@@ -1,0 +1,37 @@
+body {
+  background: #333;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  width: fit-content;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flex-child:nth-child(2) {
+  border: 5px solid lightseagreen;
+}
+
+.flex-child:nth-child(3) {
+  border: 5px solid lightgreen;
+}
+
+.flex-child {
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  border: 5px solid lightsalmon;
+}
+
+.flex-parent {
+  height: 90vh;
+  width: 90vw;
+  margin: 4vh 4vw;
+  padding: 0;
+  border: 5px dotted white;
+}
