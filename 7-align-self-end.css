@@ -1,0 +1,17 @@
+.flex-parent {
+  display: flex;
+}
+
+.two {
+  align-self: flex-end;
+}
+
+/* 
+
+align self
+
+Aligns a flex item along the cross axis, overriding the align-items value.
+
+flex-start, flex-end, center, baseline, stretch
+
+*/

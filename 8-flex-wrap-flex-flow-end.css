@@ -1,0 +1,16 @@
+.flex-parent {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* 
+
+flex-wrap
+
+nowrap: Every item is fit to a single line.
+wrap: Items wrap around to additional lines.
+wrap-reverse: Items wrap around to additional lines in reverse.
+
+The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the two properties separated by a space.
+
+*/
